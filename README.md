@@ -1,5 +1,7 @@
 # 🔍 TruthWatch - AI News Integrity Monitor
 
+🌐 Live Demo: https://truthwatch.onrender.com
+
 A real-time fake news detection web app powered by Groq LLM (Llama 3.1) and Flask.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -40,3 +42,4 @@ Open browser at http://127.0.0.1:5000
 
 ## 👨‍💻 Built By
 **Saif Mohammed** — Cybersecurity & AI Enthusiast
+🔗 [LinkedIn](https://linkedin.com/in/isaifmohammed2364) | [GitHub](https://github.com/isaifmohammed)
