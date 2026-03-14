@@ -3,3 +3,6 @@ requests
 newspaper3k
 transformers
 torch
+python-dotenv
+groq
+lxml_html_clean
