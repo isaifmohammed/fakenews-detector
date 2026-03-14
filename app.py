@@ -1,11 +1,14 @@
 from flask import Flask, render_template, request, jsonify
 from src.detector import analyze_text
 from src.scraper import get_text_from_input
+from dotenv import load_dotenv
 import requests
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
-
-NEWS_API_KEY = "ec4b78ecf3e64451945d7d0c57423d81"
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
 @app.route("/")
 def home():
@@ -47,4 +50,4 @@ def analyze():
     })
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
